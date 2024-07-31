@@ -7,7 +7,7 @@ module.exports = {
     node: true,
     mocha: true,
     'shared-node-browser': true,
-    shelljs: true,
+    shelljs: false,
   },
   rules: {
     'no-async-promise-executor': 0,
